@@ -43,15 +43,50 @@
     font-size: 45px;
 
   }
-
   @media only screen and (max-width: 600px) {
-    #mahi {
-      width: 90%; /* Adjust width for smaller screens */
+      h1 {
+        font-size: 30px;
+      }
+      #mahi {
+        width: 90%;
+      }
+      #btn, .btn1 {
+        right: 10px;
+        top: 10px;
+      }
     }
-    h1 {
-      font-size: 35px; /* Adjust font size for smaller screens */
+
+
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      h1 {
+        font-size: 40px;
+        margin-top: 70px;
+      }
+      #mahi {
+        width: 70%;
+      }
+      #btn, .btn1 {
+        right: 20px;
+        top: 30px;
+      }
     }
-  }
+
+   
+    @media only screen and (min-width: 1025px) {
+      h1 {
+        font-size: 45px;
+        margin-top: 90px;
+      }
+      #mahi {
+        width: 500px;
+      }
+      #btn, .btn1 {
+        right: 780px;
+        top: 450px;
+      }
+    }
+
+
   </style>
 </head>
 <body>
