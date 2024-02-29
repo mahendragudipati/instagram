@@ -367,10 +367,10 @@ a{
 /* Media queries for responsiveness */
 /* For smaller screens */
 /*  */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .sidebar {
         width: 200px;
-        /* Adjust sidebar width for smaller screens */
+   
     }
 
     .main-home {
@@ -378,16 +378,14 @@ a{
         /* Adjust main content margin for smaller screens */
     }
 }
-
-@media only screen and (max-width: 480px) {
+/* 
+@media screen and (max-width: 480px) {
     .sidebar {
         display: none;
-        /* Hide sidebar on smaller screens */
     }
 
     .main-home {
         margin: 0;
         padding: 10px;
-        /* Adjust main content padding for smaller screens */
     }
-}
+} */
