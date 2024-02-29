@@ -113,9 +113,9 @@ a{
 /*---main home---*/
 .main-home{
     position: absolute;
-    left: 350px;
+    left: 290px;
     /* width: 100%; */
-    width: calc(100% -300px);
+    /* width: calc(100% -300px); */
     /* backgroun; */
     top: 0;
     min-height: 100vh;
