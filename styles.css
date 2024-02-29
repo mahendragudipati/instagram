@@ -10,6 +10,10 @@
     list-style: none;
     text-decoration: none;
 } */
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
 
 .sidebar{
     position: fixed;
@@ -117,7 +121,7 @@ a{
     min-height: 100vh;
     border-radius: 1rem 0 0 1rem;
     padding: 20px;
-    overflow: hidden;
+    overflow-x:hidden;
 }
 .header{
     display: flex;
