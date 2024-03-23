@@ -7,10 +7,10 @@
     <style>
   form{
      border: 1px solid;
-     width: 450px;
-     height: 400px;
+     width:400px;
+     height:350px;
      position:relative;
-     color:rgb(5, 1, 254);
+     color:rgb(15, 15, 16);
      top: 150px;
      background-color: rgba(19, 233, 208, 0.742);
      border-radius: 50px;
@@ -18,7 +18,7 @@
   }
   div{
      position: relative;
-     top: 100px;
+     top:70px;
   }
   body{
      background-color: rgba(0, 255, 255, 0.426);
@@ -74,11 +74,11 @@
      <form><div>
          
          <label for="username">USERNAME:</label>
-         <input type="text"id="username" placeholder="username" ><br><br>
+         <input type="text"id="username" placeholder="username" required><br><br>
          <label for="password">PASSWORD:</label>
-         <input type="password"id="password" placeholder="password" minlength="8" ><br><br>
+         <input type="password"id="password" placeholder="password" minlength="8" required ><br><br>
          <label for="cpassword">CONFIRM PASSWORD:</label>
-         <input type="password" id="cpassword"placeholder="confirm password" minlength="8" ><br><br>
+         <input type="password" id="cpassword"placeholder="confirm password" minlength="8" required><br><br>
          <label for="dob"> DATE OF BIRTH:</label>
          <input type="date"id="date"><br><br>
          <label for="mobile">MOBILE :</label>
@@ -86,7 +86,7 @@
          <!-- <button >register</button> -->
          <!-- <input type="button" value="submit"/> -->
          <button>SUBMIT</button>
-         <button id="skip">SKIP</button>
+         <!-- <button id="skip">SKIP</button> -->
         
  
      </form> </div>
